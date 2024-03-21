@@ -1,0 +1,62 @@
+/* Styles for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styles for form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles for form inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #10549d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4473a5;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #b11db1;
+    border-radius: 5px;
+    background-color: #8aceeb;
+    text-align: center;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 2; /* Start with fully transparent */
+    }
+    to {
+      opacity: 5; /* Fade in to fully opaque */
+    }
+  }
+  
+  /* Apply the animation to the result display element */
+  #result {
+    animation: fadeIn 0.5s ease-in-out; /* Use the defined animation with 0.5s duration and ease timing function */
+  }  
